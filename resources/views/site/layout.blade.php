@@ -82,7 +82,7 @@
                                 </a>
                             </div>
                             <p>
-                                {{$front_config['subtitle']}}
+                                {{-- {{$front_config['subtitle']}} --}}
                             </p>
                             <div class="socail_links">
                                 <ul>
