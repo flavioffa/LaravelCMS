@@ -46,11 +46,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3308'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => env('DB_HOST', 'remotemysql.com'), //'127.0.0.1'
+            'port' => env('DB_PORT', '3306'), //3308
+            'database' => env('DB_DATABASE', 'OStJECO7Es'), //'forge'
+            'username' => env('DB_USERNAME', 'OStJECO7Es'), //'forge'
+            'password' => env('DB_PASSWORD', '44Rw3PnoKQ'), //''
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_general_ci',
